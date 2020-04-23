@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		3C21E81E2450CB2100EE54BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E81D2450CB2100EE54BD /* AppDelegate.swift */; };
 		3C21E8202450CB2100EE54BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E81F2450CB2100EE54BD /* SceneDelegate.swift */; };
-		3C21E8222450CB2100EE54BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E8212450CB2100EE54BD /* ContentView.swift */; };
+		3C21E8222450CB2100EE54BD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E8212450CB2100EE54BD /* HomeView.swift */; };
 		3C21E8242450CB2200EE54BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C21E8232450CB2200EE54BD /* Assets.xcassets */; };
 		3C21E8272450CB2200EE54BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C21E8262450CB2200EE54BD /* Preview Assets.xcassets */; };
 		3C21E82A2450CB2200EE54BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C21E8282450CB2200EE54BD /* LaunchScreen.storyboard */; };
+		3C21E8322450CB9B00EE54BD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E8312450CB9B00EE54BD /* Data.swift */; };
+		3C21E8342450CC0B00EE54BD /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E8332450CC0B00EE54BD /* Drink.swift */; };
+		3C21E8362450CCA300EE54BD /* drinks.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C21E8352450CCA300EE54BD /* drinks.json */; };
+		3C21E8382450CCC800EE54BD /* DrinkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E8372450CCC800EE54BD /* DrinkInfo.swift */; };
+		3C21E83A2450CFE300EE54BD /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E8392450CFE300EE54BD /* DrinkRow.swift */; };
+		3C21E83C2450F86300EE54BD /* DrinkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21E83B2450F86300EE54BD /* DrinkDetails.swift */; };
+		3C607B2524511CCD0008A212 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C607B2424511CCD0008A212 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C21E81A2450CB2100EE54BD /* Drinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C21E81D2450CB2100EE54BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C21E81F2450CB2100EE54BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3C21E8212450CB2100EE54BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C21E8212450CB2100EE54BD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3C21E8232450CB2200EE54BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C21E8262450CB2200EE54BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C21E8292450CB2200EE54BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C21E82B2450CB2200EE54BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C21E8312450CB9B00EE54BD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3C21E8332450CC0B00EE54BD /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		3C21E8352450CCA300EE54BD /* drinks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = drinks.json; path = Drinks/Model/drinks.json; sourceTree = SOURCE_ROOT; };
+		3C21E8372450CCC800EE54BD /* DrinkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkInfo.swift; sourceTree = "<group>"; };
+		3C21E8392450CFE300EE54BD /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		3C21E83B2450F86300EE54BD /* DrinkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetails.swift; sourceTree = "<group>"; };
+		3C607B2424511CCD0008A212 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 			children = (
 				3C21E81C2450CB2100EE54BD /* Drinks */,
 				3C21E81B2450CB2100EE54BD /* Products */,
+				3C607B2424511CCD0008A212 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				3C21E81D2450CB2100EE54BD /* AppDelegate.swift */,
-				3C21E81F2450CB2100EE54BD /* SceneDelegate.swift */,
-				3C21E8212450CB2100EE54BD /* ContentView.swift */,
 				3C21E8232450CB2200EE54BD /* Assets.xcassets */,
-				3C21E8282450CB2200EE54BD /* LaunchScreen.storyboard */,
+				3CC4F87924510F0500B0F820 /* Model */,
+				3CC4F87824510EE600B0F820 /* Views */,
 				3C21E82B2450CB2200EE54BD /* Info.plist */,
+				3C21E8282450CB2200EE54BD /* LaunchScreen.storyboard */,
 				3C21E8252450CB2200EE54BD /* Preview Content */,
+				3C21E81F2450CB2100EE54BD /* SceneDelegate.swift */,
 			);
 			path = Drinks;
 			sourceTree = "<group>";
@@ -73,6 +89,27 @@
 				3C21E8262450CB2200EE54BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CC4F87824510EE600B0F820 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C21E83B2450F86300EE54BD /* DrinkDetails.swift */,
+				3C21E8372450CCC800EE54BD /* DrinkInfo.swift */,
+				3C21E8392450CFE300EE54BD /* DrinkRow.swift */,
+				3C21E8212450CB2100EE54BD /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3CC4F87924510F0500B0F820 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C21E8312450CB9B00EE54BD /* Data.swift */,
+				3C21E8332450CC0B00EE54BD /* Drink.swift */,
+				3C21E8352450CCA300EE54BD /* drinks.json */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,8 @@
 			files = (
 				3C21E82A2450CB2200EE54BD /* LaunchScreen.storyboard in Resources */,
 				3C21E8272450CB2200EE54BD /* Preview Assets.xcassets in Resources */,
+				3C607B2524511CCD0008A212 /* README.md in Resources */,
+				3C21E8362450CCA300EE54BD /* drinks.json in Resources */,
 				3C21E8242450CB2200EE54BD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,9 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C21E8382450CCC800EE54BD /* DrinkInfo.swift in Sources */,
 				3C21E81E2450CB2100EE54BD /* AppDelegate.swift in Sources */,
+				3C21E83A2450CFE300EE54BD /* DrinkRow.swift in Sources */,
+				3C21E83C2450F86300EE54BD /* DrinkDetails.swift in Sources */,
 				3C21E8202450CB2100EE54BD /* SceneDelegate.swift in Sources */,
-				3C21E8222450CB2100EE54BD /* ContentView.swift in Sources */,
+				3C21E8222450CB2100EE54BD /* HomeView.swift in Sources */,
+				3C21E8342450CC0B00EE54BD /* Drink.swift in Sources */,
+				3C21E8322450CB9B00EE54BD /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +330,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Drinks/Preview Content\"";
+				DEVELOPMENT_TEAM = R24G4TMJR4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Drinks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lynneker.silva.Drinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,8 +351,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Drinks/Preview Content\"";
+				DEVELOPMENT_TEAM = R24G4TMJR4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Drinks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = lynneker.silva.Drinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
